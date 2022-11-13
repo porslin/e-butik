@@ -1,0 +1,296 @@
+body {
+    background-color: beige;
+    color: rgb(69, 65, 72);
+    padding: 10px;
+    height: 100%;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto; */
+}
+
+/* Hover links */
+a:visited,a:link {
+    color: 2b2b2b;
+    text-decoration: none;
+  }
+
+  
+  a:hover{
+      color: pink;
+  }
+
+  .fa:hover{
+    color: pink;
+}
+
+#kiano:hover{
+    color: pink;
+}
+
+/*Style*/
+
+.header-column{
+    background-color: beige;
+}
+
+.header{
+    margin: auto;  
+}
+
+
+.logo-img{
+    text-align: center;
+
+}
+
+.header a{
+    margin-right: 15px;
+}
+
+.fa{
+    color: 2b2b2b;
+    margin-left: 50px;
+} 
+
+#kiano{
+    text-align: center;
+    font-size: 40px;
+    color: 2b2b2b;
+}
+
+#footer{
+    color: 2b2b2b;
+    text-align: center;
+    padding-top: 45px;
+    height: 100px;
+}
+
+
+ion-icon {
+    color: black;
+    font-size: 30px;
+  }
+
+  ion-icon:hover {
+    color: lightpink;
+  }
+
+  .navigation{
+    text-align: end;
+  }
+
+  table, th, td {
+    width: 600;
+    border: 1px solid white;
+    background-color: beige;
+  }
+
+button {
+    border: 0;
+    background: none;
+    padding: 0;
+}
+
+/* Cart styling */
+
+.cart-dropdown {
+    float:right;
+    overflow: hidden;
+    padding: 0;
+}
+
+.cart-dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    max-height: 500px;
+    z-index: 1;
+    right: 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+.dropdown-content h5 {
+    text-align: left;
+    margin: 0.5rem;
+}
+
+.show {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul.product-row {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.row.cart-detail {
+    border-bottom: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0;
+}
+
+.cart-detail-img {
+    width: 25%;
+}
+
+.cart-detail-product {
+    width: 65%;
+}
+
+div.checkout {
+    width: 100%;
+    display: block;
+}
+
+a.checkoutBtn {
+    background-color: lightpink;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  .white-box{
+    width: 650px;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    margin: 15px;
+
+  }
+  .space-box{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  input{
+    background-color: beige;
+    border: none;
+
+   }
+
+.main-box-login{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 400px;
+}
+.main-box-mypage{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+
+}
+.main-box-register{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 400px;
+
+}
+.main-box-product{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 270px;
+
+}
+.main-box-newuser{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 400px;
+
+}
+
+.button{
+    color: black;
+    background-color:lightpink;
+    border-color: lightpink;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    border-radius: 5px;
+  }
+.search-button{
+    color: black;
+    background-color:lightpink;
+    border-color: lightpink;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    border-radius: 5px;
+}
+
+  .flex-box{
+display: flex;
+
+  }
+
+  .search-div{
+    width: 440px;
+    margin: 15px;
+    height: 450px;
+    background-color: beige;
+  }
+  .modal-header{
+    background-color: beige;
+  }
+ 
+
+  .modal-content {
+    padding:15px; 
+    height: 700px;
+    background-color: white;
+ }
+ #show_up{
+    width: 200px;
+    height: 200px;
+    border: none;
+    display: none;
+}
+#show_up a{
+    border-bottom: none;
+    display: block;
+    padding: 5px;
+}
+
+
+
